@@ -1,0 +1,52 @@
+.container {
+  margin-left: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border: none;
+  margin-bottom: 20px;
+}
+.header-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.newScenario {
+  background-color: skyblue;
+  height: 50px;
+  width: 150px;
+  border: 0;
+  border-radius: 5px;
+}
+.addVehicle {
+  background-color: green;
+  height: 50px;
+  width: 150px;
+  border: 0;
+  border-radius: 5px;
+}
+.deleteAll {
+  background-color: orange;
+  height: 50px;
+  width: 150px;
+  border: 0;
+  border-radius: 5px;
+}
+table {
+  width: 100%;
+}
+table thead {
+  background-color: rgb(61, 58, 58);
+  height: 50px;
+}
+table tbody {
+  background-color: white;
+  color: black;
+}

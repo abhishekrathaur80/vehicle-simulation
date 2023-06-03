@@ -1,0 +1,37 @@
+.container{
+    padding: 0px 50px 50px 0px;
+}
+select{
+    margin-bottom: 5px;
+    height: 25px;
+}
+.button{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    margin-top: 5px;
+    padding: 20px;
+}
+.start{
+    background-color: rgb(159, 233, 159);
+    height: 40px;
+    border-radius: 5px ;
+    border: none;
+}
+.stop{
+    background-color: skyblue;
+    border-radius: 5px ;
+    border: none;
+}
+.graph{
+    display: inline-grid;
+    width: 1000px;
+    height: 280px;
+    color: green;
+    background-color: rgb(131, 122, 122);
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(6,1fr);
+    display: inline-grid;
+    position: relative;
+    
+}

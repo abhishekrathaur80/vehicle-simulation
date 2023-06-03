@@ -1,0 +1,76 @@
+{
+  "scenarios": [
+    {
+      "scenarioName": "scenario4",
+      "scenarioTime": "45",
+      "id": 1
+    },
+    {
+      "scenarioName": "scenario1",
+      "scenarioTime": "45",
+      "id": 2
+    },
+    {
+      "scenarioName": "scenario2",
+      "scenarioTime": "10",
+      "id": 3
+    },
+    {
+      "scenarioName": "scenario4",
+      "scenarioTime": "46",
+      "id": 4
+    },
+    {
+      "scenarioName": "scenario4",
+      "scenarioTime": "45",
+      "id": 5
+    },
+    {
+      "scenarioName": "scenario2",
+      "scenarioTime": "15",
+      "id": 6
+    },
+    {
+      "scenarioName": "scenario1",
+      "scenarioTime": "045",
+      "id": 7
+    },
+    {
+      "scenarioName": "scenario4",
+      "scenarioTime": "45",
+      "id": 8
+    }
+  ],
+  "vehicles": [
+    {
+      "selectScenario": "scenario4",
+      "vehicleName": "bmw",
+      "speed": "2",
+      "positionX": "1300",
+      "positionY": "2400",
+      "direction": "Towards",
+      "id": 2
+    },
+    {
+      "selectScenario": "scenario1",
+      "vehicleName": "ama",
+      "speed": "3",
+      "positionX": "100",
+      "positionY": "8000",
+      "direction": "Downward",
+      "id": 6
+    },
+    {
+      "selectScenario": "scenario1",
+      "vehicleName": "bbb",
+      "speed": "nn",
+      "positionX": "mnmn",
+      "positionY": "nnnn",
+      "direction": "Upwards",
+      "id": 7
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

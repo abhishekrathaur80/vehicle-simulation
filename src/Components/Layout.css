@@ -1,0 +1,49 @@
+.main {
+  height: 100vh;
+}
+
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  min-height: 100vh;
+  width: 300px;
+  border-radius: 5px;
+  background-color: rgb(128, 128, 244);
+
+  color: rgb(255, 255, 255);
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.body {
+  height: 100vh;
+
+  box-shadow: 0 0 2px gray;
+  background-color: black;
+  color: white;
+}
+
+.menu {
+  margin-top: 50px;
+}
+.menu-item {
+  margin-top: 30px;
+}
+.menu-item a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.menu-item i {
+  font-size: 1.2rem;
+  margin: 0 15px;
+}
+.active {
+  background-color: rgb(117, 191, 237);
+  padding: 10px;
+  color: white;
+}
